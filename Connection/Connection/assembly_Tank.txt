@@ -1,0 +1,17 @@
+Design RobotTank 
+
+AddComponent
+	Add 1 MakeBlockOrionBoard
+	Add 1 MakeBlockBluetooth
+	Add 2 DCMotor
+	Add 1 Battery
+	Add 1 MakeBlockUltrasonic
+EndAddComponent
+
+ConnectComponents
+	Connect MakeBlockOrionBoard 1 Battery 1
+	Connect MakeBlockOrionBoard 1 MakeBlockUltrasonic 1
+	Connect MakeBlockOrionBoard 1 MakeBlockBluetooth 1
+	Connect MakeBlockOrionBoard 1 DCMotor 1
+	Connect MakeBlockOrionBoard 1 DCMotor 2
+EndConnectComponents

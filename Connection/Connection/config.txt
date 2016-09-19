@@ -1,0 +1,371 @@
+Component
+	Name MakeBlockOrionBoard
+	Type Controller
+	Input 1
+	Output 1
+	Pin
+		Type Output
+		ConnectionType RJ25
+		Name MakeBlockOrionBoard-pin1
+		Position 0.03067 0.01475 0.00924
+	EndPin
+	Pin
+		Type Output
+		ConnectionType RJ25
+		Name MakeBlockOrionBoard-pin2
+		Position 0.03028 0.0 0.00924
+	EndPin
+	Pin
+		Type Output
+		ConnectionType RJ25
+		Name MakeBlockOrionBoard-pin3
+		Position 0.03047 -0.01378 0.00924
+	EndPin
+	Pin
+		Type Output
+		ConnectionType RJ25
+		Name MakeBlockOrionBoard-pin4
+		Position 0.03037 -0.02855 0.00924
+	EndPin
+	Pin
+		Type Output
+		ConnectionType RJ25
+		Name MakeBlockOrionBoard-pin5
+		Position -0.02933 -0.02777 0.00924
+	EndPin
+	Pin
+		Type Output
+		ConnectionType RJ25
+		Name MakeBlockOrionBoard-pin6
+		Position -0.02907 -0.0135 0.00924
+	EndPin
+	Pin
+		Type Output
+		ConnectionType RJ25
+		Name MakeBlockOrionBoard-pin7
+		Position -0.02933 -0.00026 0.00924
+	EndPin
+	Pin
+		Type Output
+		ConnectionType RJ25
+		Name MakeBlockOrionBoard-pin8
+		Position -0.02907 0.01479 0.00924
+	EndPin
+	Pin
+		Type Output
+		ConnectionType 2PIN
+		Name MakeBlockOrionBoard-motor1
+		Position -0.00302 -0.04004 0.00187
+	EndPin
+	Pin
+		Type Output
+		ConnectionType 2PIN
+		Name MakeBlockOrionBoard-motor2
+		Position 0.00531 -0.0408 0.00184
+	EndPin
+	Pin
+		Type Input
+		ConnectionType PWJK
+		Name MakeBlockOrionBoard-battery
+		Position 0.0 0.0 0.0
+	EndPin
+	Pin
+		Type Input
+		ConnectionType USBP
+		Name MakeBlockOrionBoard-USB
+		Position 0.0 0.0 0.0
+	EndPin
+EndComponent
+
+Component
+	Name Battery
+	Type Power
+	Input 0
+	Output 1
+	Pin
+		Type Output
+		ConnectionType PWJK
+		Name Battery-jack
+		Position 0.0 0.0 0.0
+	EndPin
+EndComponent
+
+Component
+	Name MakeBlockDualMotorDriver
+	Type Connector
+	Input 2
+	Output 1
+	Pin
+		Type Input
+		ConnectionType RJ25
+		Name MakeBlockDualMotorDriver-pin1
+		Position 0.02905 -0.00683 0.00902
+	EndPin
+	Pin
+		Type Input
+		ConnectionType RJ25
+		Name MakeBlockDualMotorDriver-pin2
+		Position 0.02877 0.00709 0.00903
+	EndPin
+	Pin
+		Type Output
+		ConnectionType 2PIN
+		Name MakeBlockDualMotorDriver-motor1
+		Position 0.0 0.0 0.0
+	EndPin
+	Pin
+		Type Output
+		ConnectionType 2PIN
+		Name MakeBlockDualMotorDriver-motor2
+		Position 0.0 0.0 0.0
+	EndPin
+EndComponent
+
+Component
+	Name MakeBlockUltrasonic
+	Type Sensor
+	Input 1
+	Output 0
+	Pin
+		Type Input
+		ConnectionType RJ25
+		Name MakeBlockUltrasonic-pin
+		Position -0.0002 -0.01198 -0.00881
+	EndPin
+EndComponent
+
+Component
+	Name MakeBlockBluetooth
+	Type Sensor
+	Input 1
+	Output 0
+	Pin
+		Type Input
+		ConnectionType RJ25
+		Name MakeBlockBluetooth-pin
+		Position 0.00057 -0.0127 0.00202
+	EndPin
+EndComponent
+
+Component
+	Name MakeBlockPIR
+	Type Sensor
+	Input 1
+	Output 0
+	Pin
+		Type Input
+		ConnectionType RJ25
+		Name MakeBlockPIR-pin
+		Position -0.00067 -0.02466 0.00855
+	EndPin
+EndComponent
+
+Component
+	Name DCMotor
+	Type Actuator
+	Input 1
+	Output 0
+	Pin
+		Type Input
+		ConnectionType 2PIN
+		Name DCMotor-pin
+		Position -0.01479 -0.0062 -0.0054
+	EndPin
+EndComponent
+
+Component
+	Name MakeBlockConverter
+	Type Connector
+	Input 1
+	Output 1
+	Pin
+		Type Input
+		ConnectionType RJ25
+		Name MakeBlockConverter-RJ25
+		Position 0.003 -0.02255 -0.00364
+	EndPin
+	Pin
+		Type Output
+		ConnectionType 3PIN
+		Name MakeBlockConverter-S1
+		Position -0.00572 0.02428 -0.0055
+	EndPin
+	Pin
+		Type Output
+		ConnectionType 3PIN
+		Name MakeBlockConverter-S2
+		Position 0.00187 0.0247 -0.00521
+	EndPin
+EndComponent
+
+Component
+	Name MakeBlockServoMG995
+	Type Actuator
+	Input 1
+	Output 0
+	Pin
+		Type Input
+		ConnectionType 3PIN
+		Name MakeBlockServoMG995-S
+		Position 0.0 0.0 0.0
+	EndPin
+EndComponent
+
+Component
+	Name MakeBlockLCDScreen
+	Type Actuator
+	Input 1
+	Output 0
+	Pin
+		Type Input
+		ConnectionType RJ25
+		Name MakeBlockLCDScreen-pin
+		Position 0.0 0.0 0.0
+	EndPin
+EndComponent
+
+Component
+	Name MakeBlockAccelerometer
+	Type Sensor
+	Input 1
+	Output 0
+	Pin
+		Type Input
+		ConnectionType RJ25
+		Name MakeBlockAccelerometer-pin
+		Position 0.00015 -0.02042 0.0078
+	EndPin
+EndComponent
+
+Component
+	Name MakeBlockLEDMatrix
+	Type Actuator
+	Input 1
+	Output 0
+	Pin
+		Type Input
+		ConnectionType RJ25
+		Name MakeBlockLEDMatrix-pin
+		Position 0.0 0.0 0.0
+	EndPin
+EndComponent
+
+Component
+	Name MakeBlockSoundSensor
+	Type Sensor
+	Input 1
+	Output 0
+	Pin
+		Type Input
+		ConnectionType RJ25
+		Name MakeBlockSoundSensor-pin
+		Position 0.0 0.0 0.0
+	EndPin
+EndComponent
+
+Component
+	Name LEDRGBStrip
+	Type Actuator
+	Input 1
+	Output 0
+	Pin
+		Type Input
+		ConnectionType 3PIN
+		Name LEDRGBStrip-pin
+		Position 0.0 0.0 0.0
+	EndPin
+EndComponent
+
+ConnectionMap
+	RJ25 MakeBlockBluetooth-pin MakeBlockOrionBoard-pin5
+
+	RJ25 MakeBlockPIR-pin MakeBlockOrionBoard-pin3
+
+	RJ25 MakeBlockPIR-pin MakeBlockOrionBoard-pin4
+
+	RJ25 MakeBlockPIR-pin MakeBlockOrionBoard-pin5
+
+	RJ25 MakeBlockPIR-pin MakeBlockOrionBoard-pin6
+
+	RJ25 MakeBlockUltrasonic-pin MakeBlockOrionBoard-pin3
+
+	RJ25 MakeBlockUltrasonic-pin MakeBlockOrionBoard-pin4
+
+	RJ25 MakeBlockUltrasonic-pin MakeBlockOrionBoard-pin5
+
+	RJ25 MakeBlockUltrasonic-pin MakeBlockOrionBoard-pin6
+
+	RJ25 MakeBlockUltrasonic-pin MakeBlockOrionBoard-pin7
+
+	RJ25 MakeBlockUltrasonic-pin MakeBlockOrionBoard-pin8
+
+	RJ25 MakeBlockDualMotorDriver-pin1 MakeBlockOrionBoard-pin1
+
+	RJ25 MakeBlockDualMotorDriver-pin1 MakeBlockOrionBoard-pin2
+
+	RJ25 MakeBlockDualMotorDriver-pin2 MakeBlockOrionBoard-pin1
+
+	RJ25 MakeBlockDualMotorDriver-pin2 MakeBlockOrionBoard-pin2
+
+	2PIN DCMotor-pin MakeBlockOrionBoard-motor1
+
+	2PIN DCMotor-pin MakeBlockOrionBoard-motor2
+
+	2PIN DCMotor-pin MakeBlockDualMotorDriver-motor1
+
+	2PIN DCMotor-pin MakeBlockDualMotorDriver-motor2
+
+	RJ25 MakeBlockConverter-RJ25 MakeBlockOrionBoard-pin3
+
+	RJ25 MakeBlockConverter-RJ25 MakeBlockOrionBoard-pin4
+	
+	RJ25 MakeBlockConverter-RJ25 MakeBlockOrionBoard-pin5
+	
+	RJ25 MakeBlockConverter-RJ25 MakeBlockOrionBoard-pin6
+	
+	RJ25 MakeBlockConverter-RJ25 MakeBlockOrionBoard-pin7
+	
+	RJ25 MakeBlockConverter-RJ25 MakeBlockOrionBoard-pin8
+
+	3PIN MakeBlockConverter-S1 MakeBlockServoMG995-S
+
+	3PIN MakeBlockConverter-S2 MakeBlockServoMG995-S
+
+	3PIN MakeBlockConverter-S1 LEDRGBStrip-pin
+
+	3PIN MakeBlockConverter-S2 LEDRGBStrip-pin
+
+	RJ25 MakeBlockLCDScreen-pin MakeBlockOrionBoard-pin5
+
+	RJ25 MakeBlockAccelerometer-pin MakeBlockOrionBoard-pin3
+
+	RJ25 MakeBlockAccelerometer-pin MakeBlockOrionBoard-pin4
+
+	RJ25 MakeBlockAccelerometer-pin MakeBlockOrionBoard-pin6
+
+	RJ25 MakeBlockAccelerometer-pin MakeBlockOrionBoard-pin7
+
+	RJ25 MakeBlockAccelerometer-pin MakeBlockOrionBoard-pin8
+
+	RJ25 MakeBlockLEDMatrix-pin MakeBlockOrionBoard-pin3
+
+	RJ25 MakeBlockLEDMatrix-pin MakeBlockOrionBoard-pin4
+
+	RJ25 MakeBlockLEDMatrix-pin MakeBlockOrionBoard-pin5
+
+	RJ25 MakeBlockLEDMatrix-pin MakeBlockOrionBoard-pin6
+
+	RJ25 MakeBlockSoundSensor-pin MakeBlockOrionBoard-pin6
+
+	RJ25 MakeBlockSoundSensor-pin MakeBlockOrionBoard-pin7
+
+	RJ25 MakeBlockSoundSensor-pin MakeBlockOrionBoard-pin8
+
+	PWJK Battery-jack MakeBlockOrionBoard-battery
+EndConnectionMap
+
+RequireBattery
+	MakeBlockDualMotorDriver
+	MakeBlockServoMG995
+	DCMotor
+EndRequireBattery

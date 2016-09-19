@@ -1,0 +1,12 @@
+Design UltimateRobotKit
+
+AddComponent
+	Add 1 MakeBlockOrionBoard
+	Add 1 DCMotor
+	Add 1 Battery
+EndAddComponent
+
+ConnectComponents
+	Connect MakeBlockOrionBoard 1 DCMotor 1
+	Connect MakeBlockOrionBoard 1 Battery 1
+EndConnectComponents

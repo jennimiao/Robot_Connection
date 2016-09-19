@@ -1,0 +1,23 @@
+Design UltimateRobotKit
+
+AddComponent
+	Add 1 MakeBlockOrionBoard
+	Add 1 MakeBlockBluetooth
+	Add 3 DCMotor
+	Add 1 Battery
+	Add 1 MakeBlockDualMotorDriver
+	Add 1 MakeBlockConverter
+	Add 1 LEDRGBStrip
+EndAddComponent
+
+ConnectComponents
+	Connect MakeBlockOrionBoard 1 Battery 1
+	Connect MakeBlockOrionBoard 1 MakeBlockDualMotorDriver 1
+	Connect MakeBlockOrionBoard 1 MakeBlockDualMotorDriver 1
+	Connect MakeBlockDualMotorDriver 1 DCMotor 1
+	Connect MakeBlockOrionBoard 1 MakeBlockBluetooth 1
+	Connect MakeBlockOrionBoard 1 DCMotor 2
+	Connect MakeBlockOrionBoard 1 DCMotor 3
+	Connect MakeBlockOrionBoard 1 MakeBlockConverter 1
+	Connect MakeBlockConverter 1 LEDRGBStrip 1
+EndConnectComponents

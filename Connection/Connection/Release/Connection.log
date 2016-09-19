@@ -1,0 +1,27 @@
+﻿  Component_MakeBlock.cpp
+Component_MakeBlock.cpp(140): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+Component_MakeBlock.cpp(158): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+Component_MakeBlock.cpp(182): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+  Component_MakeBlockAccelerometer.cpp
+  Component_MakeBlockBluetooth.cpp
+  Component_MakeBlockConverter.cpp
+  Component_DCMotor.cpp
+  Component_MakeBlockLCDScreen.cpp
+  Component_MakeBlockLEDMatrix.cpp
+  Component_MakeBlockOrionboard.cpp
+  Component_MakeBlockPIR.cpp
+  Component_MakeBlockServoMG995.cpp
+  Component_MakeBlockSoundSensor.cpp
+  Component_MakeBlockUltrasonic.cpp
+  Component_MakeBlockDualMotorDriver.cpp
+  Component_pin.cpp
+  Component_pinConnectableList.cpp
+  main.cpp
+  Generating code
+  All 241 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Connection.vcxproj -> C:\Connection\Release\Connection.exe
+  Connection.vcxproj -> C:\Connection\Release\Connection.pdb (Full PDB)

@@ -1,0 +1,300 @@
+GroupMap
+
+Group
+	Name Controller
+	Com
+		1 MakeBlockOrionBoard
+	EndCom
+EndGroup
+
+Group
+	Name Arm
+	Com
+		2 Servo
+		1 Gripper
+		1 Pan-Tilt
+		1 MakeBlockUltrasonic
+		1 Battery
+	EndCom
+	Com
+		2 Servo
+		1 Gripper
+		1 Pan-Tilt
+		1 Joystick
+		1 Battery
+	EndCom
+	Com
+		2 Servo
+		1 Gripper
+		1 Pan-Tilt
+		1 MakeBlockBluetooth
+		1 Battery
+	EndCom
+	Com
+		2 Servo
+		1 Gripper
+		1 Pan-Tilt
+		1 Switch
+		1 Battery
+	EndCom
+EndGroup
+
+Group
+	Name Slideway
+	Com
+		1 Stepper_Motor
+		1 Switch
+		1 Battery
+	EndCom
+	Com
+		1 Stepper_Motor
+		1 Joystick
+		1 Battery
+	EndCom
+	Com
+		1 Stepper_Motor
+		1 MakeBlockUltrasonic
+		1 Battery
+	EndCom
+	Com
+		1 Stepper_Motor
+		1 MakeBlockBluetooth
+		1 Battery
+	EndCom
+EndGroup
+
+Group
+	Name Wheel
+	Com
+		2 DCMotor
+		2 Encoder
+		1 MakeBlockUltrasonic
+		1 Battery
+	EndCom
+	Com
+		3 DCMotor
+		1 MakeBlockUltrasonic
+		1 Battery
+	EndCom
+	Com
+		4 DCMotor
+		1 MakeBlockUltrasonic
+		1 Battery
+	EndCom
+	Com
+		2 DCMotor
+		2 Encoder
+		1 LineFollower
+		1 Battery
+	EndCom
+	Com
+		3 DCMotor
+		1 LineFollower
+		1 Battery
+	EndCom
+	Com
+		4 DCMotor
+		1 LineFollower
+		1 Battery
+	EndCom
+	Com
+		2 DCMotor
+		2 Encoder
+		1 Compass
+		1 Battery
+	EndCom
+	Com
+		3 DCMotor
+		1 Compass
+		1 Battery
+	EndCom
+	Com
+		4 DCMotor
+		1 Compass
+		1 Battery
+	EndCom
+	Com
+		2 DCMotor
+		2 Encoder
+		1 MakeBlockBluetooth
+		1 Battery
+	EndCom
+	Com
+		3 DCMotor
+		1 MakeBlockBluetooth
+		1 Battery
+	EndCom
+	Com
+		4 DCMotor
+		1 MakeBlockBluetooth
+		1 Battery
+	EndCom
+EndGroup
+
+Group
+	Name StairClimber
+	Com
+		4 DCMotor
+		3 Switch
+		1 MakeBlockUltrasonic
+		1 Gyro
+		1 Battery
+	EndCom
+EndGroup
+
+Group
+	Name Rotation
+	Com
+		2 Servo
+		1 Battery
+		1 MakeBlockUltrasonic
+	EndCom
+	Com
+		2 Servo
+		1 Battery
+		1 Switch
+	EndCom
+	Com
+		2 Servo
+		1 Battery
+		1 Joystick
+	EndCom
+	Com
+		2 Servo
+		1 Battery
+		1 Joystick
+	EndCom
+EndGroup
+
+Group
+	Name Lifter
+	Com
+		1 DCMotor
+		1 Battery
+		1 Switch
+	EndCom
+	Com
+		1 Servo
+		1 Battery
+		1 Switch
+	EndCom
+	Com
+		1 DCMotor
+		1 Battery
+		1 Joystick
+	EndCom
+	Com
+		1 Servo
+		1 Battery
+		1 Joystick
+	EndCom
+EndGroup
+
+Group
+	Name Thermometer
+	Com
+		1 Temperature_Sensor
+		1 7-segment_Display
+	EndCom
+	Com
+		1 Temperature_and_Humidity_Sensor
+		1 7-segment_Display
+	EndCom
+	Name Thermometer
+	Com
+		1 Temperature_Sensor
+		1 7-segment_Display
+		1 RGBLED
+	EndCom
+	Com
+		1 Temperature_and_Humidity_Sensor
+		1 7-segment_Display
+		1 RGBLED
+	EndCom
+EndGroup
+
+Group
+	Name Recorder
+	Com
+		1 Speaker
+		1 Microphone
+		1 SIM_card
+	EndCom
+	Com
+		1 Speaker
+		1 Microphone
+		1 Sound_Sensor
+		1 SIM_card
+	EndCom
+	Com
+		1 Speaker
+		1 Microphone
+		1 Joystick
+		1 SIM_card
+	EndCom
+EndGroup
+
+Group
+	Name Video
+	Com
+		1 Camera
+		1 SIM_card
+		1 Screen
+	EndCom
+EndGroup
+
+EndGroupMap
+
+
+
+
+
+
+DesignMap
+
+Design
+	Name Manipulator
+	Group
+		1 Arm
+		1 Controller
+		1 Wheel
+	EndGroup
+	Group
+		1 Arm
+		1 Controller
+		1 StairClimber
+	EndGroup
+EndDesign
+
+Design
+	Name Photographic_Slide
+	Group
+		1 Slideway
+		1 Video
+		1 Controller
+	EndGroup
+EndDesign
+
+Design
+	Name 360Camera
+	Group
+		1 Rotation
+		1 Video
+		1 Controller
+	EndGroup
+EndDesign
+
+Design
+	Name Car
+	Group
+		1 Wheel
+		1 Controller
+	EndGroup
+	Group
+		1 StairClimber
+		1 Controller
+	EndGroup
+EndDesign
+
+EndDesignMap
+
